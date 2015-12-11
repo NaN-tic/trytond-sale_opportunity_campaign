@@ -29,7 +29,7 @@
                 id="act_opportunity_campaign_tree">
             <field name="name">Campaigns</field>
             <field name="res_model">sale.opportunity.campaign</field>
-            <field name="domain">[('parent', '=', None)]</field>
+            <field name="domain" eval="[('parent', '=', None)]" pyson="1"/>
             <field name="search_value"></field>
         </record>
         <record model="ir.action.act_window.view"
@@ -68,7 +68,7 @@
                 id="act_opportunities_by_category">
             <field name="name">Leads and Opportunities by Campaign</field>
             <field name="res_model">sale.opportunity</field>
-            <field name="domain">[('campaign', 'child_of', Eval('active_ids'), 'parent')]</field>
+            <field name="domain" eval="[('campaign', 'child_of', Eval('active_ids'), 'parent')]" pyson="1"/>
         </record>
         <record model="ir.action.keyword"
                 id="act_opportunities_by_category_tree_keyword1">
@@ -81,6 +81,16 @@
             <field name="keyword">form_relate</field>
             <field name="model">sale.opportunity.campaign,-1</field>
             <field name="action" ref="act_opportunities_by_category"/>
+        </record>
+
+        <record model="ir.model.access"
+                id="access_opportunity_campaign_default">
+            <field name="model"
+                search="[('model', '=', 'sale.opportunity.campaign')]"/>
+            <field name="perm_read" eval="False"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
         </record>
 
         <record model="ir.model.access" id="access_opportunity_campaign">
