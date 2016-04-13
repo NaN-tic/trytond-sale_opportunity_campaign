@@ -9,7 +9,6 @@ from trytond.wizard import Wizard, StateTransition, StateAction, StateView,\
 
 __all__ = ['Opportunity', 'Campaign', 'ProductCampaign', 'PartyCampaign',
     'CreateCampaignStart', 'CreateCampaign']
-__metaclass__ = PoolMeta
 
 
 class ProductCampaign(ModelSQL):
@@ -60,8 +59,6 @@ class Campaign(ModelSQL, ModelView):
         'campaing', 'party', 'Parties')
     category = fields.Many2One('sale.opportunity.category',
         'Category')
-
-
 
     @classmethod
     def __setup__(cls):
@@ -137,6 +134,7 @@ class Campaign(ModelSQL, ModelView):
 
 class Opportunity:
     __name__ = 'sale.opportunity'
+    __metaclass__ = PoolMeta
 
     campaign = fields.Many2One('sale.opportunity.campaign', 'Campaign')
 
