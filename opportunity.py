@@ -70,6 +70,11 @@ class Campaign(ModelSQL, ModelView):
                     },
                 })
 
+    @classmethod
+    def validate(cls, campaigns):
+        super(Campaign, cls).validate(campaigns)
+        cls.check_recursion(campaigns, rec_name='name')
+
     def get_rec_name(self, name):
         if self.parent:
             return self.parent.get_rec_name(name) + ' / ' + self.name
