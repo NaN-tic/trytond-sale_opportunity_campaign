@@ -62,7 +62,6 @@ class Campaign(ModelSQL, ModelView):
         'Category')
 
 
-
     @classmethod
     def __setup__(cls):
         super(Campaign, cls).__setup__()
@@ -72,6 +71,11 @@ class Campaign(ModelSQL, ModelView):
                     'icon': 'tryton-ok',
                     },
                 })
+
+    @classmethod
+    def validate(cls, campaigns):
+        super(Campaign, cls).validate(campaigns)
+        cls.check_recursion(campaigns, rec_name='name')
 
     def get_rec_name(self, name):
         if self.parent:
