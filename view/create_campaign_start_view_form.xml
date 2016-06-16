@@ -2,8 +2,8 @@
 <!--The COPYRIGHT file at the top level of this repository
 contains the full copyright notices and license terms. -->
 <form string="Create Campaign">
-	<label name="campaign"/>
-	<field name="campaign" colspan="3"/>
-	<label name="create_leads"/>
-	<field name="create_leads"/>
+    <label name="campaign"/>
+    <field name="campaign" colspan="3"/>
+    <label name="create_leads"/>
+    <field name="create_leads"/>
 </form>
