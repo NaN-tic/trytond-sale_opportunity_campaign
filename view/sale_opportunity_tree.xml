@@ -3,7 +3,7 @@
 contains the full copyright notices and license terms. -->
 <data>
     <xpath expr="/tree/field[@name='conversion_probability']"
-            position="before">
+            position="after">
         <field name="campaign"/>
     </xpath>
 </data>
