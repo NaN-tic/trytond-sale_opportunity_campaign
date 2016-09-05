@@ -1,10 +1,9 @@
 <?xml version="1.0"?>
-<!--The COPYRIGHT file at the top level of this repository             
+<!--The COPYRIGHT file at the top level of this repository
 contains the full copyright notices and license terms. -->
 <data>
-    <xpath
-        expr="/tree/field[@name='probability']"
-        position="after">
+    <xpath expr="/tree/field[@name='conversion_probability']"
+            position="before">
         <field name="campaign"/>
     </xpath>
 </data>
