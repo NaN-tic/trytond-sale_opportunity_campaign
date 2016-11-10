@@ -16,11 +16,11 @@ msgstr "Fills"
 
 msgctxt "field:sale.opportunity.campaign,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr "Data creació"
 
 msgctxt "field:sale.opportunity.campaign,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr "Usuari creació"
 
 msgctxt "field:sale.opportunity.campaign,description:"
 msgid "Description"
@@ -32,7 +32,7 @@ msgstr "Data final"
 
 msgctxt "field:sale.opportunity.campaign,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:sale.opportunity.campaign,name:"
 msgid "Name"
@@ -60,11 +60,11 @@ msgstr "Data inicial"
 
 msgctxt "field:sale.opportunity.campaign,write_date:"
 msgid "Write Date"
-msgstr "Data de modificació"
+msgstr "Data modificació"
 
 msgctxt "field:sale.opportunity.campaign,write_uid:"
 msgid "Write User"
-msgstr "Usuari de modificació"
+msgstr "Usuari modificació"
 
 msgctxt "field:sale.opportunity.campaign-party.party,campaing:"
 msgid "Campaign"
@@ -72,15 +72,15 @@ msgstr "Campanya"
 
 msgctxt "field:sale.opportunity.campaign-party.party,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr "Data creació"
 
 msgctxt "field:sale.opportunity.campaign-party.party,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr "Usuari creació"
 
 msgctxt "field:sale.opportunity.campaign-party.party,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:sale.opportunity.campaign-party.party,party:"
 msgid "Party"
@@ -96,7 +96,7 @@ msgstr "Data modificación"
 
 msgctxt "field:sale.opportunity.campaign-party.party,write_uid:"
 msgid "Write User"
-msgstr "Usuari de modificació"
+msgstr "Usuari modificació"
 
 msgctxt "field:sale.opportunity.campaign-product.product,campaing:"
 msgid "Campaign"
@@ -104,15 +104,15 @@ msgstr "Campanya"
 
 msgctxt "field:sale.opportunity.campaign-product.product,create_date:"
 msgid "Create Date"
-msgstr "Data de creació"
+msgstr "Data creació"
 
 msgctxt "field:sale.opportunity.campaign-product.product,create_uid:"
 msgid "Create User"
-msgstr "Usuari de creació"
+msgstr "Usuari creació"
 
 msgctxt "field:sale.opportunity.campaign-product.product,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "field:sale.opportunity.campaign-product.product,product:"
 msgid "Product"
@@ -124,11 +124,11 @@ msgstr "Nom"
 
 msgctxt "field:sale.opportunity.campaign-product.product,write_date:"
 msgid "Write Date"
-msgstr "Data de modificació"
+msgstr "Data modificació"
 
 msgctxt "field:sale.opportunity.campaign-product.product,write_uid:"
 msgid "Write User"
-msgstr "Usuari de modificació"
+msgstr "Usuari modificació"
 
 msgctxt "field:sale.opportunity.create_campaign.start,campaign:"
 msgid "Campaign"
@@ -140,7 +140,7 @@ msgstr "Crear iniciatives"
 
 msgctxt "field:sale.opportunity.create_campaign.start,id:"
 msgid "ID"
-msgstr "Identificador"
+msgstr "ID"
 
 msgctxt "help:sale.opportunity.create_campaign.start,create_leads:"
 msgid ""
