@@ -16,11 +16,11 @@ msgstr "Hijas"
 
 msgctxt "field:sale.opportunity.campaign,create_date:"
 msgid "Create Date"
-msgstr "Fecha creación"
+msgstr "Fecha de creación"
 
 msgctxt "field:sale.opportunity.campaign,create_uid:"
 msgid "Create User"
-msgstr "Usuario creación"
+msgstr "Usuario de creación"
 
 msgctxt "field:sale.opportunity.campaign,description:"
 msgid "Description"
@@ -60,11 +60,11 @@ msgstr "Fecha inicial"
 
 msgctxt "field:sale.opportunity.campaign,write_date:"
 msgid "Write Date"
-msgstr "Fecha modificación"
+msgstr "Fecha de modificación"
 
 msgctxt "field:sale.opportunity.campaign,write_uid:"
 msgid "Write User"
-msgstr "Usuario modificación"
+msgstr "Usuario de modificación"
 
 msgctxt "field:sale.opportunity.campaign-party.party,campaing:"
 msgid "Campaign"
@@ -72,11 +72,11 @@ msgstr "Campaña"
 
 msgctxt "field:sale.opportunity.campaign-party.party,create_date:"
 msgid "Create Date"
-msgstr "Fecha creación"
+msgstr "Fecha de creación"
 
 msgctxt "field:sale.opportunity.campaign-party.party,create_uid:"
 msgid "Create User"
-msgstr "Usuario creación"
+msgstr "Usuario de creación"
 
 msgctxt "field:sale.opportunity.campaign-party.party,id:"
 msgid "ID"
@@ -92,11 +92,11 @@ msgstr "Nombre"
 
 msgctxt "field:sale.opportunity.campaign-party.party,write_date:"
 msgid "Write Date"
-msgstr "Fecha modificación"
+msgstr "Fecha de modificación"
 
 msgctxt "field:sale.opportunity.campaign-party.party,write_uid:"
 msgid "Write User"
-msgstr "Usuario modificación"
+msgstr "Usuario de modificación"
 
 msgctxt "field:sale.opportunity.campaign-product.product,campaing:"
 msgid "Campaign"
@@ -104,11 +104,11 @@ msgstr "Campaña"
 
 msgctxt "field:sale.opportunity.campaign-product.product,create_date:"
 msgid "Create Date"
-msgstr "Fecha creación"
+msgstr "Fecha de creación"
 
 msgctxt "field:sale.opportunity.campaign-product.product,create_uid:"
 msgid "Create User"
-msgstr "Usuario creación"
+msgstr "Usuario de creación"
 
 msgctxt "field:sale.opportunity.campaign-product.product,id:"
 msgid "ID"
@@ -124,11 +124,11 @@ msgstr "Nombre"
 
 msgctxt "field:sale.opportunity.campaign-product.product,write_date:"
 msgid "Write Date"
-msgstr "Fecha modificación"
+msgstr "Fecha de modificación"
 
 msgctxt "field:sale.opportunity.campaign-product.product,write_uid:"
 msgid "Write User"
-msgstr "Usuario modificación"
+msgstr "Usuario de modificación"
 
 msgctxt "field:sale.opportunity.create_campaign.start,campaign:"
 msgid "Campaign"
