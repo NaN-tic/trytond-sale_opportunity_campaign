@@ -133,7 +133,7 @@ class Campaign(ModelSQL, ModelView):
         opportunity.campaign = self.id
         opportunity.description = self.rec_name
         opportunity.state = 'lead'
-        opportunity.category = self.category.id
+        opportunity.category = self.category
         return opportunity
 
 
