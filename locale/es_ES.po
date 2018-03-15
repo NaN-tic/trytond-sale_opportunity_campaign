@@ -10,6 +10,10 @@ msgctxt "field:sale.opportunity,campaign:"
 msgid "Campaign"
 msgstr "Campaña"
 
+msgctxt "field:sale.opportunity,source:"
+msgid "Source"
+msgstr "Origen"
+
 msgctxt "field:sale.opportunity.campaign,category:"
 msgid "Category"
 msgstr "Categoría"
@@ -154,6 +158,34 @@ msgctxt "field:sale.opportunity.create_campaign.start,id:"
 msgid "ID"
 msgstr "Identificador"
 
+msgctxt "field:sale.opportunity.source,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:sale.opportunity.source,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:sale.opportunity.source,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.opportunity.source,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:sale.opportunity.source,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:sale.opportunity.source,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:sale.opportunity.source,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
 msgctxt "help:sale.opportunity.create_campaign.start,create_leads:"
 msgid ""
 "If marked a lead will be created for each party and related to the party"
@@ -172,6 +204,10 @@ msgstr "Campañas"
 msgctxt "model:ir.action,name:act_opportunity_campaign_tree"
 msgid "Campaigns"
 msgstr "Campañas"
+
+msgctxt "model:ir.action,name:act_opportunity_source"
+msgid "Sources"
+msgstr "Origen"
 
 msgctxt "model:ir.action,name:wizard_create_campaign"
 msgid "Create Campaign"
@@ -210,6 +246,10 @@ msgctxt "model:ir.ui.menu,name:menu_opportunity_campaign_tree"
 msgid "Campaigns"
 msgstr "Campañas"
 
+msgctxt "model:ir.ui.menu,name:menu_opportunity_source"
+msgid "Sources"
+msgstr "Orígenes"
+
 msgctxt "model:sale.opportunity.campaign,name:"
 msgid "Campaign"
 msgstr "Campaña"
@@ -225,6 +265,10 @@ msgstr "Campaña - Producto"
 msgctxt "model:sale.opportunity.create_campaign.start,name:"
 msgid "Create Campaing Start"
 msgstr "Inicio crear campaña"
+
+msgctxt "model:sale.opportunity.source,name:"
+msgid "Sale Opportunity Source"
+msgstr "Origen oportunidad de venta"
 
 msgctxt "selection:sale.opportunity.campaign,state:"
 msgid "Closed"

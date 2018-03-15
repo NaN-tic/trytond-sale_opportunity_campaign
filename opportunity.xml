@@ -3,6 +3,34 @@
      copyright notices and license terms. -->
 <tryton>
     <data>
+        <!-- sale.opportunity.source -->
+        <record model="ir.ui.view" id="opportunity_source_form_view">
+            <field name="model">sale.opportunity.source</field>
+            <field name="type">form</field>
+            <field name="name">source_form</field>
+        </record>
+        <record model="ir.ui.view" id="opportunity_source_list_view">
+            <field name="model">sale.opportunity.source</field>
+            <field name="type">tree</field>
+            <field name="name">source_list</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_opportunity_source">
+            <field name="name">Sources</field>
+            <field name="res_model">sale.opportunity.source</field>
+            <field name="search_value"></field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_opportunity_source_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="opportunity_source_list_view"/>
+            <field name="act_window" ref="act_opportunity_source"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_opportunity_source_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="opportunity_source_form_view"/>
+            <field name="act_window" ref="act_opportunity_source"/>
+        </record>
+
         <!-- sale.opportunity.campaign -->
         <record model="ir.ui.view" id="opportunity_campaign_form_view">
             <field name="model">sale.opportunity.campaign</field>
@@ -169,6 +197,9 @@
         </record>
 
         <!-- Menus -->
+        <menuitem id="menu_opportunity_source"
+            action="act_opportunity_source"
+            parent="sale.menu_configuration" sequence="30"/>
         <menuitem id="menu_opportunity_campaign_tree"
             action="act_opportunity_campaign_tree"
             parent="sale.menu_sale" sequence="1"/>
