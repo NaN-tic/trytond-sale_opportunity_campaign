@@ -59,6 +59,21 @@ class Campaign(ModelSQL, ModelView):
         'campaing', 'party', 'Parties')
     category = fields.Many2One('sale.opportunity.category',
         'Category')
+    state = fields.Selection([
+            ('draft', 'Draft'),
+            ('proposal', 'Proposal'),
+            ('planned', 'Planned'),
+            ('current', 'Current'),
+            ('closed', 'Closed'),
+            ('discarded', 'Discarded'),
+            ], 'State', required=True)
+    expenses = fields.One2Many('account.invoice.line',
+        'sale_opportunity_campaign', 'Expenses',
+        add_remove=[('sale_opportunity_campaign', '=', None)])
+
+    @staticmethod
+    def default_state():
+        return 'draft'
 
     @classmethod
     def __setup__(cls):

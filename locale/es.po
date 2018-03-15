@@ -1,6 +1,10 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.invoice.line,sale_opportunity_campaign:"
+msgid "Campaign"
+msgstr "Campaña"
 
 msgctxt "field:sale.opportunity,campaign:"
 msgid "Campaign"
@@ -30,6 +34,10 @@ msgctxt "field:sale.opportunity.campaign,end_date:"
 msgid "End Date"
 msgstr "Fecha final"
 
+msgctxt "field:sale.opportunity.campaign,expenses:"
+msgid "Expenses"
+msgstr "Gastos"
+
 msgctxt "field:sale.opportunity.campaign,id:"
 msgid "ID"
 msgstr "ID"
@@ -57,6 +65,10 @@ msgstr "Nombre"
 msgctxt "field:sale.opportunity.campaign,start_date:"
 msgid "Start Date"
 msgstr "Fecha inicial"
+
+msgctxt "field:sale.opportunity.campaign,state:"
+msgid "State"
+msgstr "Estado"
 
 msgctxt "field:sale.opportunity.campaign,write_date:"
 msgid "Write Date"
@@ -165,6 +177,31 @@ msgctxt "model:ir.action,name:wizard_create_campaign"
 msgid "Create Campaign"
 msgstr "Crear campaña"
 
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_opportunity_campaign_list_domain_all"
+msgid "All"
+msgstr "Todas"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_opportunity_campaign_list_domain_current"
+msgid "Current"
+msgstr "Actual"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_opportunity_campaign_list_domain_draft"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_opportunity_campaign_list_domain_planned"
+msgid "Planned"
+msgstr "Planificada"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_opportunity_campaign_list_domain_proposal"
+msgid "Proposal"
+msgstr "Propuesta"
+
 msgctxt "model:ir.ui.menu,name:menu_opportunity_campaign_list"
 msgid "Campaigns"
 msgstr "Campañas"
@@ -189,6 +226,30 @@ msgctxt "model:sale.opportunity.create_campaign.start,name:"
 msgid "Create Campaing Start"
 msgstr "Inicio crear campaña"
 
+msgctxt "selection:sale.opportunity.campaign,state:"
+msgid "Closed"
+msgstr "Cerrada"
+
+msgctxt "selection:sale.opportunity.campaign,state:"
+msgid "Current"
+msgstr "Actual"
+
+msgctxt "selection:sale.opportunity.campaign,state:"
+msgid "Discarded"
+msgstr "Descartada"
+
+msgctxt "selection:sale.opportunity.campaign,state:"
+msgid "Draft"
+msgstr "Borrador"
+
+msgctxt "selection:sale.opportunity.campaign,state:"
+msgid "Planned"
+msgstr "Planificada"
+
+msgctxt "selection:sale.opportunity.campaign,state:"
+msgid "Proposal"
+msgstr "Propuesta"
+
 msgctxt "view:sale.opportunity.campaign:"
 msgid "Campaign"
 msgstr "Campaña"
@@ -196,10 +257,6 @@ msgstr "Campaña"
 msgctxt "view:sale.opportunity.campaign:"
 msgid "Campaigns"
 msgstr "Campañas"
-
-msgctxt "view:sale.opportunity.campaign:"
-msgid "Children"
-msgstr "Hijas"
 
 msgctxt "view:sale.opportunity.campaign:"
 msgid "Create Leads"

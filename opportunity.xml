@@ -63,6 +63,36 @@
             <field name="view" ref="opportunity_campaign_form_view"/>
             <field name="act_window" ref="act_opportunity_campaign_list"/>
         </record>
+        <record model="ir.action.act_window.domain" id="act_opportunity_campaign_list_domain_draft">
+            <field name="name">Draft</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'draft')]" pyson="1"/>
+            <field name="act_window" ref="act_opportunity_campaign_list"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_opportunity_campaign_list_domain_proposal">
+            <field name="name">Proposal</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('state', '=', 'proposal')]" pyson="1"/>
+            <field name="act_window" ref="act_opportunity_campaign_list"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_opportunity_campaign_list_domain_planned">
+            <field name="name">Planned</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain" eval="[('state', '=', 'planned')]" pyson="1"/>
+            <field name="act_window" ref="act_opportunity_campaign_list"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_opportunity_campaign_list_domain_current">
+            <field name="name">Current</field>
+            <field name="sequence" eval="40"/>
+            <field name="domain" eval="[('state', '=', 'current')]" pyson="1"/>
+            <field name="act_window" ref="act_opportunity_campaign_list"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_opportunity_campaign_list_domain_all">
+            <field name="name">All</field>
+            <field name="sequence" eval="50"/>
+            <field name="domain"></field>
+            <field name="act_window" ref="act_opportunity_campaign_list"/>
+        </record>
 
         <record model="ir.action.act_window"
                 id="act_opportunities_by_category">
@@ -141,7 +171,7 @@
         <!-- Menus -->
         <menuitem id="menu_opportunity_campaign_tree"
             action="act_opportunity_campaign_tree"
-            parent="sale.menu_configuration" sequence="1"/>
+            parent="sale.menu_sale" sequence="1"/>
         <menuitem id="menu_opportunity_campaign_list"
             action="act_opportunity_campaign_list"
             parent="menu_opportunity_campaign_tree" sequence="1"/>
