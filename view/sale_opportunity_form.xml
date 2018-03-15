@@ -5,6 +5,8 @@ contains the full copyright notices and license terms. -->
     <xpath
         expr="/form/notebook/page[@id='opportunity']/field[@name='end_date']"
         position="after">
+        <label name="source"/>
+        <field name="source"/>
         <label name="campaign"/>
         <field name="campaign"/>
     </xpath>

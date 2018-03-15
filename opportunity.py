@@ -7,7 +7,7 @@ from trytond.transaction import Transaction
 from trytond.wizard import Wizard, StateTransition, StateAction, StateView,\
     Button
 
-__all__ = ['Opportunity', 'Campaign', 'ProductCampaign', 'PartyCampaign',
+__all__ = ['Opportunity', 'Source', 'Campaign', 'ProductCampaign', 'PartyCampaign',
     'CreateCampaignStart', 'CreateCampaign']
 
 
@@ -40,6 +40,12 @@ class PartyCampaign(ModelSQL):
         opportunity.description += ' - %s' % self.party.rec_name
         opportunity._save_values
         return [opportunity._save_values]
+
+
+class Source(ModelSQL, ModelView):
+    'Sale Opportunity Source'
+    __name__ = 'sale.opportunity.source'
+    name = fields.Char('Name', required=True)
 
 
 class Campaign(ModelSQL, ModelView):
@@ -157,6 +163,7 @@ class Opportunity:
     __metaclass__ = PoolMeta
 
     campaign = fields.Many2One('sale.opportunity.campaign', 'Campaign')
+    source = fields.Many2One('sale.opportunity.source', 'Source')
 
 
 class CreateCampaignStart(ModelView):
