@@ -13,7 +13,7 @@ contains the full copyright notices and license terms. -->
     <field name="end_date"/>
     <label name="category"/>
     <field name="category"/>
-    <notebook>
+    <notebook colspan="4">
         <page name="description">
             <field name="description" colspan="4"/>
         </page>
@@ -24,8 +24,13 @@ contains the full copyright notices and license terms. -->
         <page name="products">
             <field name="products" colspan="4"/>
         </page>
-        <page string="Children" col="1" id="childs">
-            <field name="childs"/>
+        <page name="childs">
+            <field name="childs" colspan="4"/>
+        </page>
+        <page name="expenses">
+            <field name="expenses" colspan="4"/>
         </page>
     </notebook>
+    <label name="state"/>
+    <field name="state"/>
 </form>
