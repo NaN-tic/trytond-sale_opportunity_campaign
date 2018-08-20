@@ -73,6 +73,17 @@
             <field name="act_window" ref="act_opportunity_campaign_tree"/>
         </record>
 
+        <record model="ir.model.button" id="opportunity_lead_button">
+            <field name="name">create_leads</field>
+            <field name="string">Create Leads</field>
+            <field name="model" search="[('model', '=', 'sale.opportunity.campaign')]"/>
+        </record>
+        <record model="ir.model.button-res.group"
+            id="opportunity_lead_button_group_opportinity">
+            <field name="button" ref="opportunity_lead_button"/>
+            <field name="group" ref="sale_opportunity.group_opportunity"/>
+        </record>
+
         <record model="ir.action.act_window"
                 id="act_opportunity_campaign_list">
             <field name="name">Campaigns</field>
