@@ -19,7 +19,7 @@ contains the full copyright notices and license terms. -->
         </page>
         <page name="parties">
             <field name="parties" colspan="4"/>
-            <button name="create_leads" string="Create Leads"/>
+            <button name="create_leads"/>
         </page>
         <page name="products">
             <field name="products" colspan="4"/>
