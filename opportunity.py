@@ -104,7 +104,7 @@ class Campaign(ModelSQL, ModelView):
 
     @classmethod
     def search_rec_name(cls, name, clause):
-        if isinstance(clause[2], basestring):
+        if isinstance(clause[2], str):
             values = clause[2].split('/')
             values.reverse()
             domain = []
@@ -158,9 +158,8 @@ class Campaign(ModelSQL, ModelView):
         return opportunity
 
 
-class Opportunity:
+class Opportunity(metaclass=PoolMeta):
     __name__ = 'sale.opportunity'
-    __metaclass__ = PoolMeta
 
     campaign = fields.Many2One('sale.opportunity.campaign', 'Campaign')
     source = fields.Many2One('sale.opportunity.source', 'Source')
