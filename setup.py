@@ -11,7 +11,9 @@ from configparser import ConfigParser
 
 MODULE = 'sale_opportunity_campaign'
 PREFIX = 'trytonspain'
-MODULE2PREFIX = {}
+MODULE2PREFIX = {
+    'sale_opportunity_category': 'trytonspain',
+    }
 
 
 def read(fname):
