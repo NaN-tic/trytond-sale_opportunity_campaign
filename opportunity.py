@@ -52,6 +52,7 @@ class Campaign(tree(separator=' / '), ModelSQL, ModelView):
     'Campaign'
     __name__ = 'sale.opportunity.campaign'
     name = fields.Char('Name', required=True)
+    code = fields.Char('Code')
     parent = fields.Many2One('sale.opportunity.campaign', 'Parent',
         select=True)
     childs = fields.One2Many('sale.opportunity.campaign', 'parent',
