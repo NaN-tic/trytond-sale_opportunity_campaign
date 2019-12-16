@@ -316,4 +316,4 @@ msgstr "Crear"
 
 msgctxt "wizard_button:sale.opportunity.create_campaign,start,end:"
 msgid "Cancel"
-msgstr "Cancel·lar"
+msgstr "Cancelar"
