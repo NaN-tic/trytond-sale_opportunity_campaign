@@ -16,9 +16,9 @@ class ProductCampaign(ModelSQL):
     __name__ = 'sale.opportunity.campaign-product.product'
 
     campaing = fields.Many2One('sale.opportunity.campaign', 'Campaign',
-        required=True, select=True, ondelete='CASCADE')
+        required=True, ondelete='CASCADE')
     product = fields.Many2One('product.product', 'Product',
-        required=True, select=True, ondelete='CASCADE')
+        required=True, ondelete='CASCADE')
 
 
 class PartyCampaign(ModelSQL):
@@ -26,9 +26,9 @@ class PartyCampaign(ModelSQL):
     __name__ = 'sale.opportunity.campaign-party.party'
 
     campaing = fields.Many2One('sale.opportunity.campaign', 'Campaign',
-        required=True, select=True, ondelete='CASCADE')
+        required=True, ondelete='CASCADE')
     party = fields.Many2One('party.party', 'Party', required=True,
-        select=True, ondelete='CASCADE')
+        ondelete='CASCADE')
 
     def _get_opportunities(self):
         '''
@@ -53,8 +53,7 @@ class Campaign(tree(separator=' / '), ModelSQL, ModelView):
     __name__ = 'sale.opportunity.campaign'
     name = fields.Char('Name', required=True)
     code = fields.Char('Code')
-    parent = fields.Many2One('sale.opportunity.campaign', 'Parent',
-        select=True)
+    parent = fields.Many2One('sale.opportunity.campaign', 'Parent')
     childs = fields.One2Many('sale.opportunity.campaign', 'parent',
         string='Children')
     description = fields.Text('Description')
