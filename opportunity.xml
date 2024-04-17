@@ -76,7 +76,7 @@
         <record model="ir.model.button" id="opportunity_lead_button">
             <field name="name">create_leads</field>
             <field name="string">Create Leads</field>
-            <field name="model" search="[('model', '=', 'sale.opportunity.campaign')]"/>
+            <field name="model">sale.opportunity.campaign</field>
         </record>
         <record model="ir.model.button-res.group"
             id="opportunity_lead_button_group_opportinity">
@@ -154,8 +154,7 @@
 
         <record model="ir.model.access"
                 id="access_opportunity_campaign_default">
-            <field name="model"
-                search="[('model', '=', 'sale.opportunity.campaign')]"/>
+            <field name="model">sale.opportunity.campaign</field>
             <field name="perm_read" eval="False"/>
             <field name="perm_write" eval="False"/>
             <field name="perm_create" eval="False"/>
@@ -163,8 +162,7 @@
         </record>
 
         <record model="ir.model.access" id="access_opportunity_campaign">
-            <field name="model"
-                search="[('model', '=', 'sale.opportunity.campaign')]"/>
+            <field name="model">sale.opportunity.campaign</field>
             <field name="group" ref="sale_opportunity.group_opportunity"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="True"/>
