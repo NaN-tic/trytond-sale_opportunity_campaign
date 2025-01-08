@@ -38,8 +38,7 @@ class PartyCampaign(ModelSQL):
         opportunity = self.campaing.get_lead()
         opportunity.party = self.party
         opportunity.description += ' - %s' % self.party.rec_name
-        opportunity._save_values
-        return [opportunity._save_values]
+        return [opportunity._save_values()]
 
 
 class Source(ModelSQL, ModelView):
