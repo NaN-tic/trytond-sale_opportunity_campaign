@@ -143,7 +143,8 @@ class CreateCampaignStart(ModelView):
     'Create Campaing Start'
     __name__ = 'sale.opportunity.create_campaign.start'
 
-    campaign = fields.Many2One('sale.opportunity.campaign', 'Campaign')
+    campaign = fields.Many2One('sale.opportunity.campaign', 'Campaign',
+        required=True)
     create_leads = fields.Boolean('Create Leads', help='If marked a lead will '
         'be created for each party and related to the party')
 
