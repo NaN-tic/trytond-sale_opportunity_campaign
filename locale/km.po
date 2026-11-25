@@ -1,0 +1,324 @@
+#
+msgid ""
+msgstr ""
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:account.invoice.line,sale_opportunity_campaign:"
+msgid "Campaign"
+msgstr "យុទ្ធនាការ"
+
+msgctxt "field:sale.opportunity,campaign:"
+msgid "Campaign"
+msgstr "យុទ្ធនាការ"
+
+msgctxt "field:sale.opportunity,source:"
+msgid "Source"
+msgstr "អត្ថបទដើម"
+
+msgctxt "field:sale.opportunity.campaign,category:"
+msgid "Category"
+msgstr "ប្រភេទ"
+
+msgctxt "field:sale.opportunity.campaign,childs:"
+msgid "Children"
+msgstr "កូន"
+
+msgctxt "field:sale.opportunity.campaign,create_date:"
+msgid "Create Date"
+msgstr "កាលបរិច្ឆេទបង្កើត"
+
+msgctxt "field:sale.opportunity.campaign,create_uid:"
+msgid "Create User"
+msgstr "អ្នកបង្កើត"
+
+msgctxt "field:sale.opportunity.campaign,description:"
+msgid "Description"
+msgstr "សេចក្តីពិពណ៌នា"
+
+msgctxt "field:sale.opportunity.campaign,end_date:"
+msgid "End Date"
+msgstr "កាលបរិច្ឆេទបញ្ចប់"
+
+msgctxt "field:sale.opportunity.campaign,expenses:"
+msgid "Expenses"
+msgstr "ចំណាយ"
+
+msgctxt "field:sale.opportunity.campaign,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.opportunity.campaign,name:"
+msgid "Name"
+msgstr "ឈ្មោះ"
+
+msgctxt "field:sale.opportunity.campaign,parent:"
+msgid "Parent"
+msgstr "គំរូមេ"
+
+msgctxt "field:sale.opportunity.campaign,parties:"
+msgid "Parties"
+msgstr "ភាគី"
+
+msgctxt "field:sale.opportunity.campaign,products:"
+msgid "Products"
+msgstr "ផលិតផល"
+
+msgctxt "field:sale.opportunity.campaign,rec_name:"
+msgid "Name"
+msgstr "ឈ្មោះ"
+
+msgctxt "field:sale.opportunity.campaign,start_date:"
+msgid "Start Date"
+msgstr "កាលបរិច្ឆេទចាប់ផ្តើម"
+
+msgctxt "field:sale.opportunity.campaign,state:"
+msgid "State"
+msgstr "ស្ថានភាព"
+
+msgctxt "field:sale.opportunity.campaign,write_date:"
+msgid "Write Date"
+msgstr "កាលបរិច្ឆេទកែប្រែ"
+
+msgctxt "field:sale.opportunity.campaign,write_uid:"
+msgid "Write User"
+msgstr "អ្នកកែប្រែ"
+
+msgctxt "field:sale.opportunity.campaign-party.party,campaing:"
+msgid "Campaign"
+msgstr "យុទ្ធនាការ"
+
+msgctxt "field:sale.opportunity.campaign-party.party,create_date:"
+msgid "Create Date"
+msgstr "កាលបរិច្ឆេទបង្កើត"
+
+msgctxt "field:sale.opportunity.campaign-party.party,create_uid:"
+msgid "Create User"
+msgstr "អ្នកបង្កើត"
+
+msgctxt "field:sale.opportunity.campaign-party.party,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.opportunity.campaign-party.party,party:"
+msgid "Party"
+msgstr "ភាគី"
+
+msgctxt "field:sale.opportunity.campaign-party.party,rec_name:"
+msgid "Name"
+msgstr "ឈ្មោះ"
+
+msgctxt "field:sale.opportunity.campaign-party.party,write_date:"
+msgid "Write Date"
+msgstr "កាលបរិច្ឆេទកែប្រែ"
+
+msgctxt "field:sale.opportunity.campaign-party.party,write_uid:"
+msgid "Write User"
+msgstr "អ្នកកែប្រែ"
+
+msgctxt "field:sale.opportunity.campaign-product.product,campaing:"
+msgid "Campaign"
+msgstr "យុទ្ធនាការ"
+
+msgctxt "field:sale.opportunity.campaign-product.product,create_date:"
+msgid "Create Date"
+msgstr "កាលបរិច្ឆេទបង្កើត"
+
+msgctxt "field:sale.opportunity.campaign-product.product,create_uid:"
+msgid "Create User"
+msgstr "អ្នកបង្កើត"
+
+msgctxt "field:sale.opportunity.campaign-product.product,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.opportunity.campaign-product.product,product:"
+msgid "Product"
+msgstr "ផលិតផល"
+
+msgctxt "field:sale.opportunity.campaign-product.product,rec_name:"
+msgid "Name"
+msgstr "ឈ្មោះ"
+
+msgctxt "field:sale.opportunity.campaign-product.product,write_date:"
+msgid "Write Date"
+msgstr "កាលបរិច្ឆេទកែប្រែ"
+
+msgctxt "field:sale.opportunity.campaign-product.product,write_uid:"
+msgid "Write User"
+msgstr "អ្នកកែប្រែ"
+
+msgctxt "field:sale.opportunity.create_campaign.start,campaign:"
+msgid "Campaign"
+msgstr "យុទ្ធនាការ"
+
+msgctxt "field:sale.opportunity.create_campaign.start,create_leads:"
+msgid "Create Leads"
+msgstr "បង្កើតអតិថិជនសក្ដានុពល"
+
+msgctxt "field:sale.opportunity.create_campaign.start,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.opportunity.source,create_date:"
+msgid "Create Date"
+msgstr "កាលបរិច្ឆេទបង្កើត"
+
+msgctxt "field:sale.opportunity.source,create_uid:"
+msgid "Create User"
+msgstr "អ្នកបង្កើត"
+
+msgctxt "field:sale.opportunity.source,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:sale.opportunity.source,name:"
+msgid "Name"
+msgstr "ឈ្មោះ"
+
+msgctxt "field:sale.opportunity.source,rec_name:"
+msgid "Name"
+msgstr "ឈ្មោះ"
+
+msgctxt "field:sale.opportunity.source,write_date:"
+msgid "Write Date"
+msgstr "កាលបរិច្ឆេទកែប្រែ"
+
+msgctxt "field:sale.opportunity.source,write_uid:"
+msgid "Write User"
+msgstr "អ្នកកែប្រែ"
+
+msgctxt "help:sale.opportunity.create_campaign.start,create_leads:"
+msgid ""
+"If marked a lead will be created for each party and related to the party"
+msgstr ""
+"បើធីក ប្រព័ន្ធនឹងបង្កើតកំណត់ត្រាអតិថិជនសក្ដានុពលសម្រាប់ភាគីនីមួយៗ "
+"និងភ្ជាប់កំណត់ត្រាទៅភាគីនោះ"
+
+msgctxt "model:ir.action,name:act_opportunities_by_category"
+msgid "Leads and Opportunities by Campaign"
+msgstr "អតិថិជនសក្ដានុពល និងឱកាសលក់តាមយុទ្ធនាការ"
+
+msgctxt "model:ir.action,name:act_opportunity_campaign_list"
+msgid "Campaigns"
+msgstr "យុទ្ធនាការ"
+
+msgctxt "model:ir.action,name:act_opportunity_campaign_tree"
+msgid "Campaigns"
+msgstr "យុទ្ធនាការ"
+
+msgctxt "model:ir.action,name:act_opportunity_source"
+msgid "Sources"
+msgstr "ប្រភព"
+
+msgctxt "model:ir.action,name:wizard_create_campaign"
+msgid "Create Campaign"
+msgstr "បង្កើតយុទ្ធនាការ"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_opportunity_campaign_list_domain_all"
+msgid "All"
+msgstr "ទាំងអស់"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_opportunity_campaign_list_domain_current"
+msgid "Current"
+msgstr "បច្ចុប្បន្ន"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_opportunity_campaign_list_domain_draft"
+msgid "Draft"
+msgstr "សេចក្តីព្រាង"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_opportunity_campaign_list_domain_planned"
+msgid "Planned"
+msgstr "បានគ្រោងទុក"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_opportunity_campaign_list_domain_proposal"
+msgid "Proposal"
+msgstr "សំណើ"
+
+msgctxt "model:ir.ui.menu,name:menu_opportunity_campaign_list"
+msgid "Campaigns"
+msgstr "យុទ្ធនាការ"
+
+msgctxt "model:ir.ui.menu,name:menu_opportunity_campaign_tree"
+msgid "Campaigns"
+msgstr "យុទ្ធនាការ"
+
+msgctxt "model:ir.ui.menu,name:menu_opportunity_source"
+msgid "Sources"
+msgstr "ប្រភព"
+
+msgctxt "model:sale.opportunity.campaign,name:"
+msgid "Campaign"
+msgstr "យុទ្ធនាការ"
+
+msgctxt "model:sale.opportunity.campaign-party.party,name:"
+msgid "Campaign - Party"
+msgstr "យុទ្ធនាការ - ភាគី"
+
+msgctxt "model:sale.opportunity.campaign-product.product,name:"
+msgid "Campaign - Product"
+msgstr "យុទ្ធនាការ - ផលិតផល"
+
+msgctxt "model:sale.opportunity.create_campaign.start,name:"
+msgid "Create Campaing Start"
+msgstr "ចាប់ផ្ដើមបង្កើតយុទ្ធនាការ"
+
+msgctxt "model:sale.opportunity.source,name:"
+msgid "Sale Opportunity Source"
+msgstr "ប្រភពឱកាសលក់"
+
+msgctxt "selection:sale.opportunity.campaign,state:"
+msgid "Closed"
+msgstr "បានបិទ"
+
+msgctxt "selection:sale.opportunity.campaign,state:"
+msgid "Current"
+msgstr "បច្ចុប្បន្ន"
+
+msgctxt "selection:sale.opportunity.campaign,state:"
+msgid "Discarded"
+msgstr "បានបោះចោល"
+
+msgctxt "selection:sale.opportunity.campaign,state:"
+msgid "Draft"
+msgstr "សេចក្តីព្រាង"
+
+msgctxt "selection:sale.opportunity.campaign,state:"
+msgid "Planned"
+msgstr "បានគ្រោងទុក"
+
+msgctxt "selection:sale.opportunity.campaign,state:"
+msgid "Proposal"
+msgstr "សំណើ"
+
+msgctxt "view:sale.opportunity.campaign:"
+msgid "Campaign"
+msgstr "យុទ្ធនាការ"
+
+msgctxt "view:sale.opportunity.campaign:"
+msgid "Campaigns"
+msgstr "យុទ្ធនាការ"
+
+msgctxt "view:sale.opportunity.campaign:"
+msgid "Create Leads"
+msgstr "បង្កើតអតិថិជនសក្ដានុពល"
+
+msgctxt "view:sale.opportunity.create_campaign.start:"
+msgid "Create Campaign"
+msgstr "បង្កើតយុទ្ធនាការ"
+
+msgctxt "wizard_button:sale.opportunity.create_campaign,start,create_:"
+msgid "Create"
+msgstr "បង្កើត"
+
+msgctxt "wizard_button:sale.opportunity.create_campaign,start,end:"
+msgid "Cancel"
+msgstr "បោះបង់"
